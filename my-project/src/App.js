@@ -1,23 +1,17 @@
-import logo from './logo.svg';
 import './App.css';
-
+import {Routes,Route} from "react-router-dom"
+import { MarginPading } from './Components/MarginPading';
+import { Responsive } from './Components/ResponsiceTail';
+import { ApplyDirective } from './Components/Applydirective';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Routes>
+    <Route path="margin" element={<MarginPading/>}></Route>
+    <Route path="responsive" element={<Responsive/>}></Route>
+    <Route path="applydirective" element={<ApplyDirective/>}></Route>
+
+    </Routes>
     </div>
   );
 }
