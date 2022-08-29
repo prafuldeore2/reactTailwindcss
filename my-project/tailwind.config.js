@@ -4,8 +4,8 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],  theme: {
     extend: {
-      screens:{
-         xsm:"500px"
+      height: {
+        'full': '400rem',
       }
     },
   },

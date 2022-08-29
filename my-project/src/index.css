@@ -1,5 +1,7 @@
+
 @tailwind base;
 @tailwind components;
+
 .btnstyle1{
   @apply text-white bg-yellow-400 hover:bg-yellow-500 
   focus:outline-none focus:ring-4
@@ -15,10 +17,11 @@
     dark:focus:ring-yellow-900
 }
 
-
-
-@tailwind utilities;
 *{
   margin: 0;
   padding: 0;
+
 }
+
+
+@tailwind utilities;
