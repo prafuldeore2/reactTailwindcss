@@ -25,6 +25,7 @@ export const Linkdin = () => {
             </label>
             <input
               type="text"
+              className="border  border-black  outline-indigo-900  rounded-md w-full h-8 mb-5"
             />
             <span className="mb-6">
               By clicking Agree & Join, you agree to the LinkedIn{" "}
