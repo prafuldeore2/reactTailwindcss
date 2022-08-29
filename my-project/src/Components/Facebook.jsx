@@ -1,3 +1,4 @@
+import {Link} from "react-router-dom"
 export const Facebook = () => {
   return (
     <div className="outerContainer h-full border-2 border-red-600 bg-slate-100">
@@ -31,6 +32,9 @@ export const Facebook = () => {
 
         </div>
       </div>
+      <Link to="/microsoft"><div className="micro underline absolute -bottom-1">Goto Microsoft</div></Link>
+      <Link to="/linkdin"><div className="micro underline absolute -bottom-1">Goto Lindin</div></Link>
+
       </div>
   );
 };
