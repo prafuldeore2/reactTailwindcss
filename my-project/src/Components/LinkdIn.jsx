@@ -18,14 +18,13 @@ export const Linkdin = () => {
             </label>
             <input
               type="text"
-              className="border border-black   rounded-md w-full  h-8 mb-5"
+              className="border border-black  outline-indigo-900 rounded-md w-full  h-8 mb-5"
             />
             <label className="text-gray-500 ">
               Password(6 or more charachters)
             </label>
             <input
               type="text"
-              className="border  border-black  rounded-md w-full h-8 mb-5"
             />
             <span className="mb-6">
               By clicking Agree & Join, you agree to the LinkedIn{" "}
@@ -37,7 +36,7 @@ export const Linkdin = () => {
                 Cookie Policy.
               </span>{" "}
             </span>
-            <button className="btn bg-blue-700 font-bold text-xl text-white rounded-full w-full h-12 mb-5 ">
+            <button className="btn bg-blue-700 font-bold text-xl text-white rounded-full w-full h-12 mb-5 hover:bg-indigo-900 ">
               {" "}
               Agree & Join
             </button>
@@ -48,10 +47,10 @@ export const Linkdin = () => {
               <div className="border-t-2 border-black w-full ml-10 m-auto"></div>
             </div>
 
-            <div className="g-btn border-2 flex rounded-full justify-evenly w-full h-12 mb-5  ">
+            <div className="g-btn border-2 flex rounded-full justify-evenly w-full h-12 mb-5  cursor-pointer bg-gray-50">
               <img
                 src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRv_Wz5D2mokusUFzXELJ7nobGMTaUVzQkYspyUgoxEiu0KLjFylKle8UJooBW2euAMAqs&usqp=CAU"
-                className="w-10 "
+                className="w-10 ml-4"
                 alt=""
               />
               <span
@@ -61,7 +60,7 @@ export const Linkdin = () => {
               </span>
             </div>
 
-            <div className="already w-full my-4">
+            <div className="already w-full my-4 ">
               <span className="mb-6">
                 Already on LinkedIn?
                 <span className="text-blue-700 hover:underline font-bold cursor-pointer">
@@ -70,7 +69,7 @@ export const Linkdin = () => {
               </span>
             </div>
 
-            <div className="already w-full my-4 -mb-10" >
+            <div className="already w-full  -mb-12" >
               <span className="mb-6">
                 Looking to create a page for a business?
                 <span className="text-blue-700 hover:underline font-bold cursor-pointer">
@@ -81,6 +80,13 @@ export const Linkdin = () => {
           </div>
         </div>
       </div>
+      
+      <span class="inline-flex items-center p-1 mr-2 text-sm font-semibold text-blue-800 bg-blue-100 rounded-full dark:bg-blue-200 dark:text-blue-800">
+  <svg aria-hidden="true" class="w-3 h-3" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path></svg>
+  <span class="sr-only">Icon description</span>
+</span>
     </div>
+
+    
   );
 };
