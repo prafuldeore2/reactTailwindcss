@@ -32,8 +32,13 @@ export const Facebook = () => {
 
         </div>
       </div>
-      <Link to="/microsoft"><div className="micro underline absolute -bottom-1">Goto Microsoft</div></Link>
-      <Link to="/linkdin"><div className="micro underline absolute -bottom-1.1">Goto LinkdIn</div></Link>
+      <div className="flex gap-2 mt-16">
+      <Link to="/microsoft"><div className="micro underline ">Goto Microsoft</div></Link>
+      <Link to="/linkdin"><div className="micro underline ">Goto LinkdIn</div></Link>
+      <Link to="/scaler"><div className="micro underline ">Goto Scaler</div></Link>
+
+      </div>
+      
 
       </div>
   );

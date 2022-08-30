@@ -6,6 +6,7 @@ import { ApplyDirective } from './Components/Applydirective';
 import { Facebook } from './Components/Facebook';
 import { Microsoft } from './Components/Microsoft';
 import { Linkdin } from './Components/LinkdIn';
+import { Scaler } from './Components/Scaler';
 function App() {
   return (
     <div className="App">
@@ -16,6 +17,7 @@ function App() {
     <Route path="/" element={<Facebook/>}></Route>
     <Route path="microsoft" element={<Microsoft/>}></Route>
     <Route path="linkdin" element={<Linkdin/>}></Route>
+    <Route path="scaler" element={<Scaler/>}></Route>
 
 
 

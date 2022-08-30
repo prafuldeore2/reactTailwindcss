@@ -6,7 +6,8 @@ module.exports = {
     extend: {
       height: {
         'full': '400rem',
-      }
+      },
+      
     },
   },
   plugins: [],
