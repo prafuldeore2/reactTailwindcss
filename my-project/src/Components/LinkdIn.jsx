@@ -61,7 +61,7 @@ export const Linkdin = () => {
               </span>
             </div>
 
-            <div className="already w-full my-4 ">
+            <div className="already w-full my-8 ">
               <span className="mb-6">
                 Already on LinkedIn?
                 <span className="text-blue-700 hover:underline font-bold cursor-pointer">
