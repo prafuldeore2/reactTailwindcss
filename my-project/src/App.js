@@ -7,6 +7,7 @@ import { Facebook } from './Components/Facebook';
 import { Microsoft } from './Components/Microsoft';
 import { Linkdin } from './Components/LinkdIn';
 import { Scaler } from './Components/Scaler';
+import { Cookie } from './Components/Coockies';
 function App() {
   return (
     <div className="App">
@@ -18,6 +19,8 @@ function App() {
     <Route path="microsoft" element={<Microsoft/>}></Route>
     <Route path="linkdin" element={<Linkdin/>}></Route>
     <Route path="scaler" element={<Scaler/>}></Route>
+    <Route path="cookie" element={<Cookie/>}></Route>
+
 
 
 

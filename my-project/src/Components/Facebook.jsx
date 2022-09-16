@@ -36,6 +36,8 @@ export const Facebook = () => {
       <Link to="/microsoft"><div className="micro underline ">Goto Microsoft</div></Link>
       <Link to="/linkdin"><div className="micro underline ">Goto LinkdIn</div></Link>
       <Link to="/scaler"><div className="micro underline ">Goto Scaler</div></Link>
+      <Link to="/cookie"><div className="micro underline ">Goto Cookie</div></Link>
+
 
       </div>
       

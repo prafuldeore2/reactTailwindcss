@@ -2,20 +2,6 @@
 @tailwind base;
 @tailwind components;
 
-.btnstyle1{
-  @apply text-white bg-yellow-400 hover:bg-yellow-500 
-  focus:outline-none focus:ring-4
-   focus:ring-yellow-300 
-   font-medium rounded-full text-sm px-5 py-2.5 text-center m-5
-    dark:focus:ring-yellow-900
-}
-.btnstyle2{
-  @apply text-white bg-red-400 hover:bg-blue-500 
-  focus:outline-none focus:ring-4
-   focus:ring-yellow-300 
-   font-medium rounded-full text-sm px-5 py-2.5 text-center m-5
-    dark:focus:ring-yellow-900
-}
 
 *{
   margin: 0;
